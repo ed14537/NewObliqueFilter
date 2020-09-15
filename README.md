@@ -1,4 +1,1 @@
-# ObliqueFilter
-# ObliqueFilter
-# ObliqueFilter
 # NewObliqueFilter
