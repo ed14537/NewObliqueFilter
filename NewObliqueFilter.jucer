@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="U2jzcE" name="NewObliqueFilter" projectType="audioplug" jucerVersion="5.4.7">
+  <MAINGROUP id="K9jmwQ" name="NewObliqueFilter">
+    <GROUP id="{88EF80FA-EC6D-7964-D0FB-C026210CF029}" name="Source">
+      <FILE id="emPJCU" name="OtherLookAndFeel.h" compile="0" resource="0"
+            file="/Users/ellisd-b/Documents/NewObliqueFilter/Source/OtherLookAndFeel.h"/>
+      <FILE id="fR3uFS" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="DaAYlx" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="DnONCI" name="FastMath.h" compile="0" resource="0" file="/Users/ellisd-b/Downloads/JUCE-Audio-Filter-master/Source/FastMath.h"/>
+      <FILE id="V3rPNN" name="MyFilter.cpp" compile="1" resource="0" file="/Users/ellisd-b/Downloads/JUCE-Audio-Filter-master/Source/MyFilter.cpp"/>
+      <FILE id="AxRtit" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="zmWPPP" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="kUiBJu" name="MyFilter.h" compile="0" resource="0" file="/Users/ellisd-b/Documents/NewObliqueFilter/Source/MyFilter.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Users/ellisd-b/Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
